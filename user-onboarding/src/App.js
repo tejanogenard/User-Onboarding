@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import Users from './components/Users';
 import UserForm from './components/UserForm';
+import ReactDom from 'react-dom';
 import './App.css';
 
 
@@ -23,6 +24,8 @@ function App() {
         <p>
          React User-list
         </p>
+        <UserForm />
+        <Users />
         <a
           className="App-link"
           href="https://reactjs.org"
